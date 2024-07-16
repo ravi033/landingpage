@@ -1,0 +1,170 @@
+.section1 { 
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.maintextblock {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.maintextblock>p {
+    color : lightgrey
+}
+
+.maintextblock>button{
+    align-self: flex-start;   
+}
+
+.content1>img {
+    width: 500px;
+    height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8
+}
+
+li {
+    list-style-type: none;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.maintext {
+    color :#f9faf8;
+    font-size: 48px;
+    font-style: extra-bold;
+}
+
+button {
+    border-radius: 4px;
+    background-color: #3882f6;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.randomtext {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: bold;
+    padding: 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box , .box-text{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #3882f6;
+}
+
+.line2 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.quote {
+    max-width: 1000px;
+    color: #1F2937;
+    font-style: light italic;
+    font-size: 36px;
+    align-self: center;
+}
+
+.author {
+    font-style: bold;
+    font-size: 25px;
+    max-width: 1000px;
+    text-align: right;
+}
+
+.line3 {
+    align-self: center;
+    margin: 50px;
+    background-color: #3882f6;
+    display: flex;
+    padding-top : 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    gap: 300px;
+}
+
+.lefttext1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lefttext2 {
+    color : lightgrey;
+    font-size: 15px;
+
+}
+
+.lastbutton{
+    border-color: white;
+    color: white;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
